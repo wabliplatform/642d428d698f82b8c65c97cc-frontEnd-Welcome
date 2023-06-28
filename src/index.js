@@ -13,8 +13,8 @@
 
 
 import ApiClient from './ApiClient';
-import Welcome from './model/Welcome';
-import WelcomeApi from './api/WelcomeApi';
+import Wev from './model/Wev';
+import WevApi from './api/WevApi';
 
 
 /**
@@ -56,16 +56,16 @@ export {
     ApiClient,
 
     /**
-     * The Welcome model constructor.
-     * @property {module:model/Welcome}
+     * The Wev model constructor.
+     * @property {module:model/Wev}
      */
-    Welcome,
+    Wev,
 
     /**
-    * The WelcomeApi service constructor.
-    * @property {module:api/WelcomeApi}
+    * The WevApi service constructor.
+    * @property {module:api/WevApi}
     */
-    WelcomeApi
+    WevApi
 };
 
 export default {
@@ -76,14 +76,14 @@ export default {
     ApiClient,
 
     /**
-     * The Welcome model constructor.
-     * @property {module:model/Welcome}
+     * The Wev model constructor.
+     * @property {module:model/Wev}
      */
-    Welcome,
+    Wev,
 
     /**
-    * The WelcomeApi service constructor.
-    * @property {module:api/WelcomeApi}
+    * The WevApi service constructor.
+    * @property {module:api/WevApi}
     */
-    WelcomeApi
+    WevApi
 };

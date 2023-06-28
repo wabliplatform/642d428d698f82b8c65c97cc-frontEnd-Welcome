@@ -22,6 +22,8 @@ class ExpressServer {
       this.app.get('/', (req, res) => res.sendFile(path.join(__dirname,'html','Welcome.html')));
 			this.app.get('/Welcome', (req, res) => res.sendFile(path.join(__dirname,'html','Welcome.html')));
 			this.app.get('/Welcome/:id', (req, res) => res.sendFile(path.join(__dirname,'html','Welcome.html')));
+			this.app.get('/Page2', (req, res) => res.sendFile(path.join(__dirname,'html','Page2.html')));
+			this.app.get('/Page2/:id', (req, res) => res.sendFile(path.join(__dirname,'html','Page2.html')));
 			
     }
   
