@@ -17,14 +17,14 @@ window.onload = () => {
                 response.json().then(data => {
                     
             try{
-                document.getElementById('i2cmj').textContent = data.genres.0.name;
+                document.getElementById('i2cmj').textContent = data.genres[1].name;
             }
             catch(e){
                 console.log(e);
             }
 
             try{
-                document.getElementById('iptzy').textContent = data.genres.1.name;
+                document.getElementById('iptzy').textContent = data.genres[0].name;
             }
             catch(e){
                 console.log(e);
